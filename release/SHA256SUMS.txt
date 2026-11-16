@@ -1,0 +1,2 @@
+a582658940492e45121e1e35235512bf1cf528418f3b27555a7c4e8cc1ce7fa6  NotaSync_Setup_2.3.0.exe
+8dd0b57e8eff48cde5fd6ecb5ea6c610a65fb5aae1c7c8fd7350dc994e8eb40b  NotaSync_Instalador.zip

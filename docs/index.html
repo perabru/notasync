@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NotaSync para Windows: importe sua planilha, identifique matérias e avaliações e automatize o lançamento de notas no portal da Univap. Download, início rápido e manual.">
+  <meta name="theme-color" content="#19243d">
+  <title>NotaSync — Da planilha ao lançamento de notas</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="./" aria-label="NotaSync, página inicial"><img src="assets/logo.svg" width="35" height="35" alt=""><span>NotaSync</span></a>
+      <nav aria-label="Navegação principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#inicio-rapido">Início rápido</a>
+        <a href="manual.html">Manual</a>
+      </nav>
+      <a class="button small nav-download" href="https://github.com/perabru/notasync/releases/download/v2.3.0/NotaSync_Setup_2.3.0.exe" data-download="exe">Baixar para Windows <span aria-hidden="true">↓</span></a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container" aria-labelledby="titulo-principal">
+      <div class="hero-copy">
+        <div class="version-tag"><span></span>NotaSync <span data-version>2.3.0</span> <i>para Windows</i></div>
+        <h1>Lance as notas<br>da planilha<br><span>no portal.</span></h1>
+        <p class="hero-description">Importe o Excel, confira as matérias identificadas e automatize o lançamento nas disciplinas que sua conta pode acessar.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/perabru/notasync/releases/download/v2.3.0/NotaSync_Setup_2.3.0.exe" data-download="exe"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z" fill="currentColor"/></svg>Baixar para Windows</a>
+          <a class="button secondary" href="#inicio-rapido">Ver início rápido <span aria-hidden="true">↘</span></a>
+        </div>
+        <p class="download-meta">Windows 10/11 · 64 bits · cerca de 37 MB<br>Python e bibliotecas incluídos no instalador.</p>
+        <a class="zip-link" href="https://github.com/perabru/notasync/releases/download/v2.3.0/NotaSync_Instalador.zip" data-download="zip">Prefere um ZIP? Baixar o instalador compactado <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="product-visual" aria-label="Ilustração da interface do NotaSync com dados fictícios">
+        <div class="visual-window">
+          <div class="window-chrome"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>NotaSync · aplicativo local</span><span class="local-dot">No seu computador</span></div>
+          <div class="visual-body">
+            <aside class="visual-sidebar" aria-hidden="true"><img src="assets/logo.svg" width="30" height="30" alt=""><span class="side-active">▦</span><span>✓</span><span>◷</span></aside>
+            <div class="visual-main">
+              <div class="preview-heading"><div><small>Lançamento de notas</small><h2>Prepare. Confira. Execute.</h2></div><span class="preview-tag">Exemplo fictício</span></div>
+              <div class="preview-stages" aria-hidden="true"><span><b>1</b> Planilha</span><i></i><span><b>2</b> Verificação</span><i></i><span><b>3</b> Lançamento</span></div>
+              <div class="preview-file"><span class="file-icon" aria-hidden="true">X</span><div><strong>notas_exemplo.xlsx</strong><small>Redes de Computadores · 1A</small></div><span class="file-check" aria-hidden="true">✓</span></div>
+              <div class="preview-codes" aria-label="Avaliações dos quatro bimestres"><span>A11</span><span>AT1</span><span>A12</span><span>AT2</span><span>A13</span><span>AT3</span><span>A14</span><span>AT4</span></div>
+              <div class="preview-options"><span class="selected"><i></i>Resumido</span><span><i></i>Completo</span><span><i></i>Pular teste</span></div>
+              <div class="preview-progress"><div><strong>Conferindo as notas salvas</strong><span>75%</span></div><div class="preview-track"><span></span></div><small>Preenchidas 12 · Conferidas 6 de 12</small></div>
+              <div class="preview-footer"><span><i></i>Matéria identificada</span><span>Relatório de lançamento</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="visual-caption"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2 3.5 5v4.6c0 4 6.5 8.4 6.5 8.4s6.5-4.4 6.5-8.4V5L10 2Z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="m6.8 9.6 2.1 2.1 4.3-4.3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Este site não recebe sua planilha nem seu login.</div>
+      </div>
+    </section>
+
+    <div class="audience-strip container"><span>Para quem lança notas</span><p>Professores <b aria-hidden="true">·</b> Coordenadores <b aria-hidden="true">·</b> Quatro bimestres</p><span class="strip-note">A11 / AT1 até A14 / AT4</span></div>
+
+    <section class="how-section container section-space" id="como-funciona" aria-labelledby="como-titulo">
+      <div class="section-heading"><span class="eyebrow">DO ARQUIVO À CONFERÊNCIA</span><h2 id="como-titulo">Cada nota na matéria certa.</h2><p>O programa cruza os dados da origem com as turmas disponíveis no seu acesso.</p></div>
+      <div class="how-grid">
+        <article class="how-item"><span class="item-number">01</span><h3>Identifica a origem</h3><p>Lê arquivos Excel ou um link de exportação e identifica avaliações, matérias, matrículas e notas. Você pode desmarcar os campos que não deseja lançar.</p><div class="detail-pill">.xlsx e .xlsm</div></article>
+        <article class="how-item"><span class="item-number">02</span><h3>Respeita o seu acesso</h3><p>Funciona com conta de professor ou coordenador. Usa apenas as turmas e disciplinas acessíveis à conta, com conferência de RA, matéria, ano e turma.</p><div class="detail-pill">Matérias mantidas separadas</div></article>
+        <article class="how-item"><span class="item-number">03</span><h3>Salva e confere</h3><p>Atualiza as diferenças, recarrega e verifica a persistência. A barra separa as notas preenchidas das conferidas; o relatório mostra o resultado.</p><div class="detail-pill">Ambiguidades ficam como pendência</div></article>
+      </div>
+      <div class="subject-note"><span aria-hidden="true">↳</span><p><strong>Redes continua em Redes.</strong> Uma nota com disciplina explícita fica vinculada a ela, inclusive nos campos AT. O compartilhamento é reservado às planilhas genéricas de projetos que não indicam uma matéria específica.</p></div>
+    </section>
+
+    <section class="modes-section section-space" aria-labelledby="modos-titulo"><div class="container">
+      <div class="section-heading split-heading"><div><span class="eyebrow">A VERIFICAÇÃO É SUA ESCOLHA</span><h2 id="modos-titulo">Três formas de continuar.</h2></div><p>Os testes abrem uma réplica local do portal. A planilha original e a Univap permanecem intactas durante o teste.</p></div>
+      <div class="mode-grid">
+        <article class="mode-card featured"><span class="mode-label">Opção inicial</span><div class="mode-icon" aria-hidden="true">↗</div><h3>Teste resumido</h3><p>Verifica uma amostra de até três notas por avaliação, turma e disciplina, incluindo posições do início, meio e fim da lista.</p><div class="mode-bottom">Mostra quantas notas foram testadas.</div></article>
+        <article class="mode-card"><span class="mode-label">Conferência integral</span><div class="mode-icon" aria-hidden="true">✓</div><h3>Teste completo</h3><p>Preenche e confere todas as notas aptas selecionadas, com confirmação de Salvar e releitura dos valores.</p><div class="mode-bottom">Mostra a aprovação ou a etapa que falhou.</div></article>
+        <article class="mode-card"><span class="mode-label">Acesso direto</span><div class="mode-icon" aria-hidden="true">→</div><h3>Pular teste</h3><p>Segue para a área de lançamento sem abrir o navegador de teste. O aplicativo registra a sua escolha.</p><div class="mode-bottom">A conferência do lançamento real continua ativa.</div></article>
+      </div>
+    </div></section>
+
+    <section class="quick-section container section-space" id="inicio-rapido" aria-labelledby="inicio-titulo">
+      <div class="section-heading"><span class="eyebrow">PRIMEIRO LANÇAMENTO</span><h2 id="inicio-titulo">Comece em poucos passos.</h2><p>Tenha sua planilha atualizada e o acesso autorizado ao portal.</p></div>
+      <ol class="quick-steps">
+        <li><span>1</span><div><h3>Instale e abra</h3><p>Baixe o instalador, clique em Instalar e abra o NotaSync pelo atalho. Para atualizar, encerre a versão anterior antes de instalar.</p></div></li>
+        <li><span>2</span><div><h3>Carregue a planilha</h3><p>Escolha o Excel ou informe um link que permita exportação. Para uma planilha privada, baixe o Excel e selecione o arquivo.</p></div></li>
+        <li><span>3</span><div><h3>Confira as avaliações</h3><p>O programa identifica os campos e as matérias. Desmarque o que não deseja lançar e consulte as pendências da origem.</p></div></li>
+        <li><span>4</span><div><h3>Escolha a verificação</h3><p>Faça o teste resumido, o completo ou escolha pular. Ao testar, aguarde o resultado mostrado no aplicativo.</p></div></li>
+        <li><span>5</span><div><h3>Entre e execute</h3><p>Informe login e senha no aplicativo, escolha se deseja acompanhar o navegador e clique em Executar em tempo real.</p></div></li>
+        <li><span>6</span><div><h3>Acompanhe o resultado</h3><p>Veja a barra de progresso e baixe o relatório. Confira as pendências antes de repetir um lançamento sem confirmação.</p></div></li>
+      </ol>
+      <a class="manual-link" href="manual.html">Abrir o manual completo <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="requirements-section container" aria-labelledby="requisitos-titulo">
+      <div><span class="eyebrow">ANTES DE INSTALAR</span><h2 id="requisitos-titulo">O que você precisa.</h2></div>
+      <dl><div><dt>Sistema</dt><dd>Windows 10 ou 11 de 64 bits.</dd></div><div><dt>Navegador</dt><dd>Edge utilizável ou Chromium preparado pelo instalador.</dd></div><div><dt>Conexão</dt><dd>Internet para o portal e, se necessário, para preparar o navegador.</dd></div><div><dt>Acesso</dt><dd>Conta de professor ou coordenador com permissão para as disciplinas desejadas.</dd></div></dl>
+    </section>
+
+    <section class="download-section container section-space" id="download" aria-labelledby="download-titulo"><div><span class="eyebrow">NOTASYNC PARA WINDOWS</span><h2 id="download-titulo">Baixe e escolha como começar.</h2><p>Versão <span data-version>2.3.0</span> · Instalador com Python e bibliotecas incluídos.</p></div><div class="download-actions"><a class="button primary" href="https://github.com/perabru/notasync/releases/download/v2.3.0/NotaSync_Setup_2.3.0.exe" data-download="exe">Baixar o instalador <span aria-hidden="true">↓</span></a><a class="zip-link" href="https://github.com/perabru/notasync/releases/download/v2.3.0/NotaSync_Instalador.zip" data-download="zip">Baixar em ZIP</a></div></section>
+    <p class="validation-note container"><strong>Sobre a validação:</strong> 199 testes automatizados passaram no ambiente local. Essa verificação não certifica a instalação em Windows nem o lançamento no portal real; a conta, as permissões e a tela real são conferidas ao executar.</p>
+  </main>
+
+  <footer class="site-footer container"><div><a class="brand" href="./"><img src="assets/logo.svg" width="28" height="28" alt=""><span>NotaSync</span></a><p>Desenvolvido por Bruno Michel Pera.</p></div><div class="footer-links"><a href="manual.html">Manual</a><a href="https://github.com/perabru/notasync" data-repository>GitHub <span aria-hidden="true">↗</span></a></div><p class="independent-note">Ferramenta independente para uso com o portal da Univap. Este site não é um canal institucional da universidade.</p></footer>
+</body>
+</html>

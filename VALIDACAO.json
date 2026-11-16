@@ -1,0 +1,65 @@
+{
+  "version": "2.3.0",
+  "installer": "NotaSync_Setup_2.3.0.exe",
+  "bytes": 36990098,
+  "sha256": "a582658940492e45121e1e35235512bf1cf528418f3b27555a7c4e8cc1ce7fa6",
+  "changes": [
+    "Escolha entre pular teste, teste resumido e teste completo",
+    "Resumido testa até 3 notas por avaliação e turma/disciplina; completo confere todas as aptas",
+    "Pular registra escolha explícita e libera execução sem navegador de teste",
+    "Identificação automática de planilha, matérias e oito avaliações, selecionadas inicialmente",
+    "Disciplinas explícitas permanecem separadas, inclusive projetos AT1 a AT4",
+    "Projetos genéricos sem disciplina mantêm compartilhamento anterior",
+    "Professores e coordenadores usam somente as ofertas acessíveis à própria conta",
+    "Ano, turma e período explícitos conferidos; notas ambíguas ou conflitantes ficam bloqueadas",
+    "Barra mostra etapa, preenchidas e conferidas, percentual observado e totais desconhecidos como indeterminados",
+    "Salvar, recarregar e verificar persistência continua obrigatório durante o lançamento real"
+  ],
+  "validation": {
+    "automated_tests_passed": 199,
+    "automated_tests_skipped": 0,
+    "browser_qa": "official Chromium headless shell on Linux; installed local tests remain visible",
+    "imported_source": {
+      "file": "consulta.xlsx",
+      "sha256": "b980a7b7b7298761afaec7614218442ec866fe7b2dc493d45cb0a5b475361d63",
+      "unchanged": true
+    },
+    "test_modes": {
+      "quick": {
+        "tested_records": 24,
+        "expected_records": 328,
+        "confirmed_writes": 24,
+        "coverage_complete": false
+      },
+      "full": {
+        "tested_records": 328,
+        "expected_records": 328,
+        "confirmed_writes": 328,
+        "coverage_complete": true
+      },
+      "skip": {
+        "status": "skipped",
+        "tested_records": 0,
+        "no_training_run": true
+      }
+    },
+    "auto_detected_assessments": 8,
+    "teacher_account_scope": {
+      "accessible_classes": 1,
+      "written_classes": 1,
+      "confirmed_local_notes": 328,
+      "only_accessible_offerings": true,
+      "adapter": "synthetic teacher account; no real portal"
+    },
+    "progress_samples_observed": 307,
+    "javascript_errors": [],
+    "nsis_compile": "passed",
+    "extraction": "passed",
+    "runtime_integrity_entries": 889,
+    "runtime_integrity": "all matched after extracting the actual executable",
+    "source_comparison": "all extracted application sources and guide matched current files",
+    "windows_execution": "not performed",
+    "real_portal_grade_writes": "not performed",
+    "scope": "All integration writes were confined to the loopback replica or a synthetic teacher adapter. The real account and site are checked at execution time."
+  }
+}

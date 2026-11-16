@@ -1,0 +1,46 @@
+# Python and local development
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.spec
+build/
+dist/
+
+# Local application data and private inputs
+*.log
+*.csv
+*.xlsx
+*.xlsm
+*.xls
+*.db
+*.sqlite*
+config.json
+historico.jsonl
+instancia.json
+instancia.lock
+.env
+.env.*
+!.env.example
+uploads/
+upload/
+analysis/
+outputs/
+browsers/
+browser-profile/
+
+# Installers are published as GitHub Release assets
+*.exe
+*.zip
+*.whl
+installer/vendor/*
+!installer/vendor/SOURCES.json
+!installer/vendor/runtime_manifest.json
+
+# Editor and operating-system state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
